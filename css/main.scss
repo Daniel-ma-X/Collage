@@ -1,0 +1,22 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: repeat(auto, minmax(150px, 200px));
+    gap: 5px;
+    border: 2px solid black;
+}
+
+.target {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.box {
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
